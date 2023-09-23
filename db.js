@@ -5,7 +5,7 @@ const dbAPI= process.env.mongoURI
 const mongoDB = async () => {
     try {
       await mongoose.connect(dbAPI);
-      console.log('Connected! ༼ つ ◕_◕ ༽つ');
+      console.log('Connected! 🎉');
       
     } catch (error) {
       console.log("error");
