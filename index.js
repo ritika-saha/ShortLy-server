@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000
 // Define routes and application logic here
-
+const mongoDB = require('./db')
+mongoDB()
 const cors = require("cors")
 app.use(cors())
 
