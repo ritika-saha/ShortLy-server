@@ -14,7 +14,8 @@
     "express": "^4.18.2",
     "mongodb": "^6.1.0",
     "mongoose": "^7.5.2",
-    "nanoid": "^3.3.6"
+    "nanoid": "^3.3.6",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
