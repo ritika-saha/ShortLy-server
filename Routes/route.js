@@ -61,7 +61,7 @@ router.post('/urlShortner',async(req,res)=>{
 
 router.get('/:shortURL',async(req,res)=>{
     const shortURL=req.params.shortURL
-    console.log('Received shortURL:', shortURL);
+   // console.log('Received shortURL:', shortURL);
     try {
         const url=await URL.findOne({shortURL:`${serverURL}/${shortURL}`})
 
