@@ -7,7 +7,7 @@ const validUrl = require('valid-url');
 const dotenv = require("dotenv");
 dotenv.config()
 
-const serverURL=process.env.Short_Url||'http://localhost:3000/api'
+const serverURL='https://shorly-wsmw.onrender.com/api'
 
 function validateURL(url){
     return validUrl.isUri(url);
